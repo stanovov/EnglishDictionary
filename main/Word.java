@@ -7,6 +7,7 @@ import java.util.Locale;
 
 public class Word {
     private String word;
+    private String transfer;
     private Date createDate;
 
 //  Возможно когда-то допилю функционал
