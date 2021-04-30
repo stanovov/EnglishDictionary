@@ -41,6 +41,10 @@ public class Word {
         return createDate;
     }
 
+    public String getTransfer() {
+        return transfer;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (this == obj)
