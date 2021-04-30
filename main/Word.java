@@ -7,11 +7,11 @@ import java.util.Locale;
 
 public class Word {
     private String word;
-    private String transfer;
     private Date createDate;
 
 //  Возможно когда-то допилю функционал
 /*
+    private String transfer;
     String transcription;
     ArrayList<String> synonyms = new ArrayList<>();
     ArrayList<String> antonyms = new ArrayList<>();
@@ -39,10 +39,6 @@ public class Word {
 
     public Date getCreateDate() {
         return createDate;
-    }
-
-    public String getTransfer() {
-        return transfer;
     }
 
     @Override
